@@ -8,22 +8,22 @@
 
    which will update the blank archetypes from the main sources
 
-2. Commit any changes to the blanks
+1. Commit any changes to the blanks
 
-3. Update versions by running
+1. Update versions by running
 
         ./release-utils.sh -u -o <old snapshot version> -n <release version>
 
-4. Commit the version update
-5. Tag
+1. Commit the version update
+1. Tag
     
         git tag -s <release version> -m "Release <release version>"
-6. Stage the release
+1. Stage the release
         
         ./release-utils.sh -r
-7. Reset version numbers to snapshots
+1. Reset version numbers to snapshots
         
         ./release-utils.sh -u -o <release version> -n <new snapshot version>
-8. Commit this
-9. Promote the staged repo
+1. Commit this
+1. Promote the staged repo
 
