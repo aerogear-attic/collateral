@@ -17,7 +17,7 @@
 4. Commit the version update
 5. Tag
     
-        git tag -a <release version> -m "Release <release version"
+        git tag -s <release version> -m "Release <release version>"
 6. Stage the release
         
         ./release-utils.sh -r
@@ -26,5 +26,4 @@
         ./release-utils.sh -u -o <release version> -n <new snapshot version>
 8. Commit this
 9. Promote the staged repo
-
 
