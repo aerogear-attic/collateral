@@ -2,14 +2,6 @@
 
 ## Archetypes
 
-1. Regenerate the blanks by running
-
-        ./generate-blank.sh -ca
-
-   which will update the blank archetypes from the main sources
-
-1. Commit any changes to the blanks
-
 1. Update versions by running
 
         ./release-utils.sh -u -o <old snapshot version> -n <release version>
