@@ -1,8 +1,9 @@
 #!/bin/sh
-ARCHETYPE_PATH="/Volumes/v3/jboss/as-archetypes/jboss-html5-mobile-archetype/"
-QUICKSTART_PATH="/Volumes/v3/jboss/as-quickstarts/kitchensink-html5-mobile/"
+ARCHETYPE_PATH="/Volumes/v3/jboss/as-archetypes/jboss-html5-mobile-archetype"
+QUICKSTART_PATH="/Volumes/v3/jboss/as-quickstarts/kitchensink-html5-mobile"
 TMPDIR="$HOME/jboss-tmp"
 
+rm -rf $TMPDIR
 mkdir -p $TMPDIR
 
 cd $ARCHETYPE_PATH
@@ -18,7 +19,7 @@ mvn archetype:generate -DarchetypeGroupId="org.jboss.aerogear.archetypes" \
 cd $TMPDIR
 cd jboss-as-kitchensink-html5-mobile
 git init && git add . && git commit -m "from archetype"
-
-
-
+GIT_DIR="$QUICKSTART_PATH/../.git/" git archive HEAD:kitchensink-html5-mobile/ | tar -xvf -
+git add . && git commit -m "from quickstart"
+git format-patch HEAD~1
 
