@@ -38,4 +38,6 @@ MVC/Security
 Misc
 ----
 
+* Aerogear CI - Build strategies to next release and suggestions
+
 __Open topics__
