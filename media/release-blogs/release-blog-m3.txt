@@ -1,0 +1,59 @@
+<p>
+<div style="float:left;margin-right:20px;">
+    <a href="http://jboss.org/aerogear" target="blank"> 
+        <img src="http://in.relation.to/service/File/22836" alt=""/>
+    </a>
+</div>
+
+We've just release the next milestone of AeroGear, 1.0.0.M3.  In this release we've created a hybrid mobile application using Apache Cordova/PhoneGap, started a Ruby/TorqueBox mobile example, further refined the core quickstart/archetype, and started work on security, and a light weight MVC for integration.
+</p>
+<p>
+The [getting started wiki=>https://community.jboss.org/wiki/GetStartedWithHTML5MobileWebDevelopmentWithJBoss] is fully updated, but we've also added a [repository=>https://github.com/aerogear/kitchensink-cordova] and [wiki page=>https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova] to kickstart your Cordova application with AeroGear.  The great thing about Plain Old HTML5 (POH5) and Cordova is that nearly all of the web based functionality is the same, so our [Deep Dive wiki=>https://community.jboss.org/wiki/HTML5MobileQuickstartArchetypeDeepDive] gives you all the details you need to need for our HTML5, CSS3, jQuery Mobile, JAX-RS endpoints and more.
+</p>
+
+<div style="float:right;margin-left:20px;margin-bottom:20px">
+   <p>
+      <a href="https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova" target="blank"> 
+         <img src="https://community.jboss.org/servlet/JiveServlet/downloadImage/18271/187-360/androidSim.png" alt=""/>
+      </a>
+   </p>
+</div>
+
++++ Notable Updates
+
+= More polish on the core [quickstart and archetype=>https://issues.jboss.org/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+AEROGEAR+AND+fixVersion+%3D+12318676+AND+component+%3D+%22as-*%22+ORDER+BY+priority+DESC]
+= Apache Cordova/PhoneGap [example=>https://github.com/aerogear/kitchensink-cordova], and [wiki page=>https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova]
+= Upgraded to jQuery Mobile 1.1
+= Ruby/TorqueBox [mobile example=>https://issues.jboss.org/browse/AEROGEAR-6] started
+= Began [security prototyping=>https://github.com/abstractj/aerogear-security] and integration with [DeltaSpike security=>https://cwiki.apache.org/confluence/display/DeltaSpike/Security+Module+Drafts]
+= Developed a proof of concept (PoC) for a [light mvc=>http://blog.qmx.me/backing-mobile-web-apps-with-java/] to integrate security
+= Updated [OpenShift deployment=>https://community.jboss.org/wiki/DeployingHTML5ApplicationsToOpenshift] instructions
+= Updated our live demo at [=>http://poh5-aerogear.rhcloud.com]
+= Resolved various bugs, and miscellaneous items  
+= Switched to a [developer mailing list=>http://www.redhat.com/mailman/listinfo/aerogear-dev] from our developer forums
+
++++Whats Next
+
+<div style="float:left;margin-right:20px;">
+    <a href="https://community.jboss.org/wiki/POH5PlainOldHTML5Applications" target="blank"> 
+        <img src="http://in.relation.to/service/File/22839" width="400px" height="132px" alt=""/>
+    </a>
+</div>
+
+With M3 we've started development into new mobile technologies, and functionality.  For M4 we'll be completing the TorqueBox example, updating the the Cordova application, working on a new shopping cart example, and focusing on getting an alpha version of the security/mvc work in place.  
+
+The M4 release will likely be a shorter release because of various reasons, so we'll get what we can in for it, and plan to have as much as possible ready by the time [JUDCon=>http://www.jboss.org/events/JUDCon/2012/boston] and [JBoss World=>http://www.redhat.com/summit/] comes around in June!  
+
+A few of us will speaking at JBoss World, specifically [myself=>http://www.redhat.com/summit/speakers/session.html#jbalunas], and Doug Campos a.k.a. [Qmx=>http://www.jboss.org/events/JUDCon/2012/boston/agenda/day1track2#1630].  We'll be discussing AeroGear and much of the work and features above, plus some extras!  Also as part of the [Mobile/HTML5 BOF=>http://www.redhat.com/summit/sessions/jboss.html#808] several of JBoss core engineers and experts will also be discussing the future of mobile development both at Red Hat, and the larger enterprise ecosystem, so join us there!  If you want the latest, and I'm sure you do, register for [JUDCon Boston=>http://www.jboss.org/events/JUDCon/2012/boston], and/or [JBoss World 2012=>http://www.redhat.com/summit/]!
+
++++Community Role Call
+
+Aerogear is a new open source project, and like any other new project we want developers to stop by, check us out, give us some feedback, and join our ranks if you're interested!  If you've got mobile or HTML5 requirements and you're wondering how to move forward post to our [user forums=>https://community.jboss.org/community/aerogear], or stop by  \#aerogear @ irc.freenode.net.  
+
+We're always looking for new team members, so if you've got server/client side skills, mobile, HTML5, or native/hybrid app experience, and a great attitude let us know!  You can also just jump right in by checking out our [Contributing to AeroGear=>https://community.jboss.org/wiki/ContributingToAeroGear] page.
+
+\[[AeroGear Project=>http://jboss.org/aerogear/]\]
+\[[GitHub=>https://github.com/aerogear]\]
+\[[Twitter=>https://twitter.com/#!/aerogears]\]
+\[[User Forums=>https://community.jboss.org/community/aerogear]\]
+\[[Dev Mailing List=>http://www.redhat.com/mailman/listinfo/aerogear-dev]\]
