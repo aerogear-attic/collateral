@@ -23,7 +23,7 @@ The [getting started wiki=>https://community.jboss.org/wiki/GetStartedWithHTML5M
 
 = More polish on the core [quickstart and archetype=>https://issues.jboss.org/secure/IssueNavigator.jspa?reset=true&jqlQuery=project+%3D+AEROGEAR+AND+fixVersion+%3D+12318676+AND+component+%3D+%22as-*%22+ORDER+BY+priority+DESC]
 = Apache Cordova/PhoneGap [example=>https://github.com/aerogear/kitchensink-cordova], and [wiki page=>https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova]
-= Upgraded to jQuery Mobile 1.1
+= Upgraded to jQuery 1.7.1 and jQuery Mobile 1.1
 = Ruby/TorqueBox [mobile example=>https://issues.jboss.org/browse/AEROGEAR-6] started
 = Began [security prototyping=>https://github.com/abstractj/aerogear-security] and integration with [DeltaSpike security=>https://cwiki.apache.org/confluence/display/DeltaSpike/Security+Module+Drafts]
 = Developed a proof of concept (PoC) for a [light mvc=>http://blog.qmx.me/backing-mobile-web-apps-with-java/] to integrate security
@@ -40,7 +40,7 @@ The [getting started wiki=>https://community.jboss.org/wiki/GetStartedWithHTML5M
     </a>
 </div>
 
-With M3 we've started development into new mobile technologies, and functionality.  For M4 we'll be completing the TorqueBox example, updating the the Cordova application, working on a new shopping cart example, and focusing on getting an alpha version of the security/mvc work in place.  
+With M3 we've started development into new mobile technologies, and functionality.  For M4 we'll be completing the TorqueBox example, updating the Cordova application, working on a new shopping cart example, and focusing on getting an alpha version of the security/mvc work in place.  
 
 The M4 release will likely be a shorter release because of various reasons, so we'll get what we can in for it, and plan to have as much as possible ready by the time [JUDCon=>http://www.jboss.org/events/JUDCon/2012/boston] and [JBoss World=>http://www.redhat.com/summit/] comes around in June!  
 
