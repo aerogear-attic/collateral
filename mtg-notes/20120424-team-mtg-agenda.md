@@ -36,7 +36,7 @@ M4 Release
 
 Misc
 ----
-
+* social media handling
 * mvc/sec hangout at end of week 
  * Still make sense?
 
