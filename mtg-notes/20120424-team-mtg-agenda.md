@@ -29,7 +29,7 @@ M4 Release
  * Jira review this week
 * TorqueBox example
 * Cordova updates
-* Shopping cart example
+* Begin shopping cart example
 * mvc/security 
  * Denizen example?
 * CI & release process updates
