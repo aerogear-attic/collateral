@@ -72,4 +72,12 @@ Requirements: Start JBoss
 
 4. Repeat Maven and arquillian steps
 
+### JBoss Tools
+
+
+### Browser testing
+
+### Device testing
+
+
 
