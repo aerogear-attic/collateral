@@ -22,19 +22,20 @@ Following are the precondition for release aerogear.
 
 ## Deployment on AS7
 
-Requirements: Start JBoss
+Requirement: Start JBoss
 	
 	set JBOSS_HOME=/path/to/jboss-as-7.1.1.Final/
 	$JBOSS_HOME/bin/standalone.sh
 
-### Maven
+### A - Maven
 
 1. mvn clean package
 2. mvn jboss-as:deploy
-3. Access your browser at http://localhost:8080/<artifactId>
+3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*)
+4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*)
 4. Access your browser at <app-root>/src/test/qunit/index.html
 
-#### Running arquillian tests
+### B - Running arquillian tests
 
 1. Start JBoss
 	set JBOSS_HOME=/path/to/jboss-as-7.1.1.Final/
@@ -46,7 +47,7 @@ Requirements: Start JBoss
 5. mvn test -Parq-jbossas-managed	
 
 
-### Eclipse
+### C - Eclipse
 
 1. Import the generated project to eclipse
 2. Start JBoss
@@ -70,14 +71,14 @@ Requirements: Start JBoss
         -DarchetypeVersion=1.0.0.M3b \
 -Denterprise=true
 
-4. Repeat Maven and arquillian steps
+4. Repeat A,B and C steps.
 
 ### JBoss Tools
 
-
-### Browser testing
-
-### Device testing
+1. Add to your settings.xml the stage repository
+2. Open JBoss Tools 
+3. Create a new HTML5 Project
+4. Repeat A,B and C steps.
 
 
 
