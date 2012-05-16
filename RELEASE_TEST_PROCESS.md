@@ -32,7 +32,7 @@ Requirement: Start JBoss
 1. mvn clean package
 2. mvn jboss-as:deploy
 3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*)
-4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*)
+4. Access your **mobile** browser at http://localhost:8080/<artifactId> if you're lucky with firewall or switch the port to 80 :) (*Android, iOS, blackberry…*)
 4. Access your browser at <app-root>/src/test/qunit/index.html
 
 ### B - Running arquillian tests
