@@ -103,7 +103,11 @@ Requirement: Start JBoss EAP
 3. Repeat A, B, C steps
 
 
+### Don't miss JBoss Central, please!
 
+For futher instructions follow these steps:
+
+https://community.jboss.org/wiki/TestArchetypesInJBossCentral
 
 
 
