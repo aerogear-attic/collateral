@@ -32,14 +32,14 @@ Requirement: Start JBoss
 1. mvn clean package
 2. mvn jboss-as:deploy
 3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*)
-4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*)
+4. Access your **mobile** browser at http://localhost:8080/<artifactId> - if you're lucky with firewall or switch the port to 80 :) (*Android, iOS, blackberry…*)
 4. Access your browser at <app-root>/src/test/qunit/index.html
 
 ### B - Running arquillian tests
 
 1. Start JBoss
 2. mvn test **-Parq-jbossas-remote**
-3. mvn clean package **jboss-as:deploy -Pminify**
+3. mvn clean package **jboss-as:deploy -Pminify,default**
 4. Stop JBoss
 5. mvn test **-Parq-jbossas-managed**	
 
@@ -103,7 +103,11 @@ Requirement: Start JBoss EAP
 3. Repeat A, B, C steps
 
 
+### Don't miss JBoss Central, please!
 
+For futher instructions follow these steps:
+
+https://community.jboss.org/wiki/TestArchetypesInJBossCentral
 
 
 
