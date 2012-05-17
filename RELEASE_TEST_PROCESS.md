@@ -103,6 +103,10 @@ Requirement: Start JBoss EAP
 3. Repeat A, B, C steps
 
 
+## At last but not least
+
+Don't forget to test [jbossas/quickstart](https://github.com/jbossas/quickstart/) and [hosted-kitchensink](https://github.com/aerogear/hosted-kitchensink)
+
 
 
 
