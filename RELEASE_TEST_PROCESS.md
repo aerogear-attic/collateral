@@ -12,8 +12,10 @@ Following are the precondition for release aerogear.
 3.	mvn archetype:generate \                                                     
         -DarchetypeArtifactId=jboss-html5-mobile-archetype \
         -DarchetypeGroupId=org.jboss.aerogear.archetypes \
-        -DarchetypeVersion=1.0.0.M3b 
+        -DarchetypeVersion=1.0.0.xx 
         
+
+**Note:** Where **xx** is the release suffix
 
 ## as-quickstarts
 
@@ -84,10 +86,12 @@ Requirement: Start JBoss EAP
 1. mvn archetype:generate \
         -DarchetypeArtifactId=jboss-html5-mobile-archetype \
         -DarchetypeGroupId=org.jboss.aerogear.archetypes \
-        -DarchetypeVersion=1.0.0.M3b \
+        -DarchetypeVersion=1.0.0.xx \
 -Denterprise=true
 
 2. Repeat A,B and C steps.
+
+**Note:** Where **xx** is the release suffix
 
 
 ### JBoss Tools
