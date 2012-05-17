@@ -9,7 +9,7 @@ Following are the precondition for release aerogear.
 
 2.	cd as-archetypes/jboss-html5-mobile-archetype && mvn clean install
 
-3.	mvn archetype:generate \                                                     
+3.		mvn archetype:generate \                                                     
         -DarchetypeArtifactId=jboss-html5-mobile-archetype \
         -DarchetypeGroupId=org.jboss.aerogear.archetypes \
         -DarchetypeVersion=1.0.0.xx 
@@ -33,8 +33,8 @@ Requirement: Start JBoss
 
 1. mvn clean package
 2. mvn jboss-as:deploy
-3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*)
-4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*)
+3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*) or deploy to OpenShift
+4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*) or deploy to OpenShift
 4. Access your browser at <app-root>/src/test/qunit/index.html
 
 ### B - Running arquillian tests
@@ -83,11 +83,11 @@ Requirement: Start JBoss EAP
 	
 ### Maven
 	
-1. mvn archetype:generate \
+1. 		mvn archetype:generate \
         -DarchetypeArtifactId=jboss-html5-mobile-archetype \
         -DarchetypeGroupId=org.jboss.aerogear.archetypes \
         -DarchetypeVersion=1.0.0.xx \
--Denterprise=true
+        -Denterprise=true
 
 2. Repeat A,B and C steps.
 
