@@ -54,10 +54,9 @@ Warning: Announce at aerogear-dev that the release process will begin
 
 7. Wait for the feedback from tests
 
-8. Tag
-    
-        git tag -a <release version> -m "Release <release version"
+8. Sign your tag
 
+		git tag -s <release version> -m <release version>
 
 9. Reset version numbers to snapshots
         
