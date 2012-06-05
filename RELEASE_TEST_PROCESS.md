@@ -33,8 +33,8 @@ Requirement: Start JBoss
 
 1. mvn clean package
 2. mvn jboss-as:deploy
-3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*chrome, IE, safari, opera….*) or deploy to OpenShift
-4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Android, iOS, blackberry…*) or deploy to OpenShift
+3. Access your **desktop** browser at http://localhost:8080/<artifactId> (*Supported browsers https://community.jboss.org/wiki/AeroGearBasedExamplesBrowserSupportTargets*) or deploy to OpenShift
+4. Access your **mobile** browser at http://localhost:8080/<artifactId> (*Supported browsers https://community.jboss.org/wiki/AeroGearBasedExamplesBrowserSupportTargets*) or deploy to OpenShift
 4. Access your browser at <app-root>/src/test/qunit/index.html
 
 ### B - Running arquillian tests
