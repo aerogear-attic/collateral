@@ -20,6 +20,7 @@ JavaScript Client Lib for REST & SEC
 
 * Tech review status
  * Bruno
+* W3C security membership
 * Related post
  * https://community.jboss.org/message/739925#739925
 
