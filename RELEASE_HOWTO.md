@@ -99,3 +99,4 @@ It is only necessary to copy client-side files to this repo. Do not copy anythin
     * Make the HTML changes to the #register-art article for displaying the connection type
 3. Rebuild and test the changes based on [these instructions](https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova)
 4. Once both apps build correctly, remember to replace the Cordova script with the {{CORDOVA_SCRIPT}} placeholder, then commit
+5. Tag this version, keeping the tag version in sync with the KitchenSink Quickstart version.
