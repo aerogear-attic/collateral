@@ -88,7 +88,7 @@ Quickstarts
 Cordova
 ==============================
 
-# Warning
+**Warning**
 It is only necessary to copy client-side files to this repo. Do not copy anything outside of the src/main/webapp folder.
 
 1. Copy changed/new client-side files from <https://github.com/aerogear/as-quickstarts/tree/master/kitchensink-html5-mobile/src/main/webapp> to <https://github.com/aerogear/kitchensink-cordova/tree/master/shared/www>
