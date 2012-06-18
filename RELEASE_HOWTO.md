@@ -84,3 +84,18 @@ Quickstarts
         git merge -Xtheirs --squash https://github.com/aerogear/as-quickstarts.git <release version>
 1. Team review
 1. Send a pull request to jbossas/master
+
+Cordova
+==============================
+
+## Warning
+It is only necessary to copy client-side files to this repo. Do not copy anything outside of the src/main/webapp folder.
+
+1. Copy changed/new client-side files from <https://github.com/aerogear/as-quickstarts/tree/master/kitchensink-html5-mobile/src/main/webapp> to <https://github.com/aerogear/kitchensink-cordova/tree/master/shared/www>
+    * NOTE: You may want to make the changes to index.html manually rather than replacing that file to avoid step 2 in these instructions
+2. After overwriting the files, you will need to look at the diff for index.html and put the Cordova related changes back in. Those changes include:
+    * Adding the link to the Cordova JS script back in the head after app.js is included
+    * Adding the Cordova functions for displaying the connection type back in near the bottom of the final script block in the head
+    * Make the HTML changes to the #register-art article for displaying the connection type
+3. Rebuild and test the changes based on [these instructions](https://community.jboss.org/wiki/ConvertingAnAeroGearPOH5WebAppToAHybridAppWithApacheCordova)
+4. Once both apps build correctly, remember to replace the Cordova script with the {{CORDOVA_SCRIPT}} placeholder, then commit
