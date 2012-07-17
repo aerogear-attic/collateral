@@ -40,5 +40,10 @@ Roadmap Definition
 ------------------
 * Timeline definition (dates)
 
+WebWorkers Support
+------------------
+
+* mriet asked about it today on the channel (concurrency tools like locks, thread pools, etc)
+
 Misc
 ----
