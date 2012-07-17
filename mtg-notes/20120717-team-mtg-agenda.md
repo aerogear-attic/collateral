@@ -35,6 +35,8 @@ AeroGear Controller
 
 * Status
 
+__Minutes__
+
 * Alpha release made, and emails sent for comments
  * Comments made and being replied.
 * License headers needed at some point before out of Alpha
@@ -46,15 +48,24 @@ Updated Persistence API Doc
 
 * Status
 
+__Minutes__
+
 * Very intitial "start" created :-)
 * Doc in review, but looks mostly solid
 * Started to discuss the maintance of docs
- * Is the docs maintained or a new doc for 
+ * Is the docs maintained or a new doc for changes
+ * Look at how backbone does it
+ * Need to have it worked into workflow
+* Discussed client-side validation and other metadeta requirements
+ * Likely need a companion service to provide metadata
+ * Not just for client side-validaton
 
 Updated Security API Doc
 ------------------------
 
 * Status
+
+__Minutes__
 
 * Bruno wants to move forward with a simple user/role example
 * Discussion of security doc, etc..  more discussions needed offline
@@ -63,10 +74,25 @@ Roadmap Definition
 ------------------
 * Timeline definition (dates)
 
+__Minutes__
+
+* Need to have some specific dates for our roadmap
+* Along with specific roadmap requirements
+* By month is good
+* Need a solid example like the todo
+ * Create and flush out the jira's for this
+
 WebWorkers Support
 ------------------
 
 * mriet asked about it today on the channel (concurrency tools like locks, thread pools, etc)
+
+__Minutes__
+
+* Parallel model requests
+* Background syncing
+* Concerns with Android support
+ * Will need to keep in mind support, and how to polyfil
 
 Misc
 ----
