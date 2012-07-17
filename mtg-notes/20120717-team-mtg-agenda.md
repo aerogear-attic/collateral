@@ -1,7 +1,6 @@
 AeroGear Team Meeting Agenda
 ============================
 
-I just wanted to cover M5, site/doc (this week?), Controller, persistence/security.  You could just use 
 
 1.0.0.M5 Release
 -----------------
