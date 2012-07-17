@@ -18,11 +18,27 @@ AeroGear Team Meeting Agenda
 New Project Site
 ----------------
 * Status
+
+__Minutes__
+
+* Use openshift for temp hosting for reviews and discussions
+* Initial files pushed to beta repo
+* Bruno will move into awestruct and haml
+* Jay will setup doc repo before thursday
+* Qmx suggests a staging site, and CI
+* Need to make sure we do not have to work through .org for every update
+* Thursday confirmed for all-hands to move wiki
+* Create a jira for .org site update
  
 AeroGear Controller
 -------------------
 
 * Status
+
+* Alpha release made, and emails sent for comments
+ * Comments made and being replied.
+* License headers needed at some point before out of Alpha
+* Bruno will reply to thread with info on the DS security integration
 
 
 Updated Persistence API Doc
@@ -30,10 +46,18 @@ Updated Persistence API Doc
 
 * Status
 
+* Very intitial "start" created :-)
+* Doc in review, but looks mostly solid
+* Started to discuss the maintance of docs
+ * Is the docs maintained or a new doc for 
+
 Updated Security API Doc
 ------------------------
 
 * Status
+
+* Bruno wants to move forward with a simple user/role example
+* Discussion of security doc, etc..  more discussions needed offline
 
 Roadmap Definition
 ------------------
