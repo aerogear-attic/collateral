@@ -33,6 +33,10 @@ Updated Security API Doc
 
 * Status
  * Security gist
+ * DS support to aerogear-security
+ * PicketLink support to aerogear-security
+ * REST endpoints to authentication 
+ * Initial roadmap to aerogear-security (server side)
  * DS requirements sync for non-JSF use-cases
  * Updates on cross-project security discussions 
  
