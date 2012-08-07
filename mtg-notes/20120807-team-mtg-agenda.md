@@ -10,8 +10,16 @@ AeroGear Team Meeting Agenda
 
 __Minutes__
 
+AG-Controller gets moved to M6
+Jay will find more scope to be cut from M5
+JQM update will ever go in? Kris
+A release would be like
+- TODO
+- aerogear.js
+- staging.aerogear.org
+- backoffice (roadmaps, ++security work, etc)
+- ag-controller 1.0.alpha
 
- 
 New Project Site
 ----------------
 
@@ -21,6 +29,7 @@ New Project Site
 
 __Minutes__
 
+Two big issues with qmx
  
 AeroGear Controller
 -------------------
@@ -29,6 +38,7 @@ AeroGear Controller
 
 __Minutes__
 
+we have a release already :)
  
 AeroGear Security
 -----------------
@@ -37,6 +47,11 @@ AeroGear Security
 
 __Minutes__
 
+- oauth 2 discussions
+- picketlink CDI is getting together
+- tons of talks
+- RESTEasy configuration model
+- picketlink + picketbox
  
 AeroGear.JS
 -----------
@@ -45,6 +60,9 @@ AeroGear.JS
 
 __Minutes__
 
+alpha for M5
+- just the pipeline
+- 
 
 TODO App
 --------
@@ -53,6 +71,10 @@ TODO App
 
 __Minutes__
 
+- companion for aerogear.js release
+- storage is postponed
+
+Bruno will fix issues for kris
 
 Roadmap Definition
 ------------------
@@ -61,9 +83,13 @@ Roadmap Definition
 
 __Minutes__
 
+Revisit it after JIRA
+talk only if we can not make it
 
 Misc
 ----
 
 * Moving aerogear-dev to lists.jboss.organ
  * Will notify current list, and update new list.
+- on jay
+
