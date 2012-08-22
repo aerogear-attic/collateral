@@ -27,7 +27,7 @@ Following are the precondition for release aerogear.
 Requirement: Start JBoss
 	
 	set JBOSS_HOME=/path/to/jboss-as-7.1.1.Final/
-	$JBOSS_HOME/bin/standalone.sh
+	$JBOSS_HOME/bin/standalone.sh -b 0.0.0.0
 
 ### A - Maven
 
