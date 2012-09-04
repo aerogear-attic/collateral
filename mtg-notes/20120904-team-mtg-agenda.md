@@ -9,6 +9,12 @@ kitchensink-cordova
 RoadMap
 -------
 
+* Jira's and updates for RoadMap should take place this week & next
+** Each group should focus and review thier Roadmap and spec
+* Server-client api/contract is priority early
+** Qmx is going to draft initial contracts for discussion in documentation
+** Not final, just a place to have the conversation
+
 M6 Release (Oct 23rd,24th)
 ----------
 - release mtg 22nd
