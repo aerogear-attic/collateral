@@ -26,6 +26,7 @@ Site
 Security
 --------
 - secure endpoints contract
+- abstractj has been working on it http://aerogear.abstractj.org/docs/SecurityApi.html and probably will have a final draft on Wednesday
 
 Controller
 ----------
