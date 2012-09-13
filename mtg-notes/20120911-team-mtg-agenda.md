@@ -42,8 +42,11 @@ iOS client libs
 
 Android
 -------
-- collection?
-- queries
+- Collection vs. Port?
+- Need for Pipeline? (naming discussion; shared code; "factory"?)
+- Discussion of "coupled" AG-specific backends vs. arbitrary ones
+ - Queries
+ - Security
 - layered approach
 - we need to flesh out this quickly
 
