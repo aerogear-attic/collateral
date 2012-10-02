@@ -22,9 +22,15 @@ AeroGear controller
 -------------------
 
 * what goes next?
+* controller plugins
+* * jax-rs configuration plugins
+* * bean-validation plugin
+* * validation to the client-side via meta-model (let's start the discussion)
+* * progressive optimization from the server to pushstate
 
 Misc
 ----
+
 
 
 
