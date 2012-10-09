@@ -15,11 +15,11 @@ AeroGear-JS
 AeroGear-Android
 ----------------
 
-- Passos split the projects into library and TODO
+- Glen split the projects into library and TODO
 - APIs are more streamlined
 - right now callback-based APIs are being implemented
 - TODO app got more impromevents from Passos
-- imminent UI refactor to align android version w/ iOS version, without losing the android-y feel.
+- UI refactor to align android version w/ iOS version, without losing the android-y feel.
 - M1 is synced up M6
 - Marko wants to see another alternative to http/rest adapter (to validate the pipes/pipeline abstraction)
 - maybe using netflix OData endpoint as a starting point? websockets?
