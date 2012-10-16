@@ -15,8 +15,9 @@
 
 ### AeroGear Security
 
+## misc
+
 ### CI
 
 - Do we have more projects to be included?
 
-## misc
