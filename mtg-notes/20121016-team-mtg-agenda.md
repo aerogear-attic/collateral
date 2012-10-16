@@ -7,6 +7,9 @@
 - What's missing?
 - Security & Controller must update their roadmaps
 
+### AeroGear JS
+- looks good for the release
+
 ### Android Libraries
 
 ### iOS libraries
