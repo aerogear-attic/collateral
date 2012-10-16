@@ -14,6 +14,8 @@
 - Daniel has been working on it https://gist.github.com/3871798
 
 ### AeroGear Security
+- We don't need to spend more efforts on TODO app
+- Bruno has been working on it https://gist.github.com/9fa3e1919f544bb6a3d9
 
 ## misc
 
